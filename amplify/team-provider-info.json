@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-telescodellc-dev-235537-authRole",
+      "UnauthRoleArn": "arn:aws:iam::148377810335:role/amplify-telescodellc-dev-235537-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::148377810335:role/amplify-telescodellc-dev-235537-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-telescodellc-dev-235537-deployment",
+      "UnauthRoleName": "amplify-telescodellc-dev-235537-unauthRole",
+      "StackName": "amplify-telescodellc-dev-235537",
+      "StackId": "arn:aws:cloudformation:us-east-1:148377810335:stack/amplify-telescodellc-dev-235537/570742f0-2527-11ee-8b57-12371e23f7a1",
+      "AmplifyAppId": "d2j0meq4skzqip"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2j0meq4skzqip",
+          "type": "cicd"
+        }
+      }
+    }
+  }
+}
