@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <code>Telescode LLC</code>
+          <code>- Telescode LLC - </code>
         </p>
         <a
           className="App-link"
