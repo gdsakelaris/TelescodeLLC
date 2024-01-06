@@ -3,9 +3,12 @@ html {
 }
 
 .App {
+	min-height: 100vh; /* Ensure the App takes up the full viewport height */
+	display: flex;
+	flex-direction: column; /* Stack children vertically */
 	text-align: center;
-	margin: 0; /* Adjust as necessary */
-	padding: 0; /* Adjust as necessary */
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -26,19 +29,28 @@ body {
 
 .App-header {
 	/* background-color: #282c34; */
-	min-height: initial; /* Adjust as needed, or remove this property */
+	min-height: initial; /* Adjust as needed */
 	display: flex;
 	flex-direction: column;
-	align-items: center; /* Align items to the start (left) of the container */
+	align-items: center; /* Horizontally center content */
 	/*align-items: flex-start; Align items to the start (left) of the container */
-	justify-content: flex-start; /* Align items to the start (top) of the container */
+	justify-content: flex-start; /* Align items to the start/top of the container */
 	font-size: calc(10px + 2vmin);
 	color: white;
-	padding: 15px; /* Optional: Adds some space around the content */
+	padding: 15px; /* Adds space around the content */
+}
+
+.App-footer {
+	color: white;
+	margin-top: auto; /* Push the footer to the bottom */
+	text-align: center; /* Center text horizontally */
+	padding: 15px;
+	background-color: #282c34; /* Add a background color if needed */
 }
 
 .App-link {
-	color: #61dafb;
+	color: #1a669a;
+	font-size: 24px;
 }
 
 @keyframes App-logo-spin {
