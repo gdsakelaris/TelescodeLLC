@@ -5,18 +5,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          <code>Telescode LLC</code>
-        </p>
-        <br /><br />
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>
+          <code>Telescode LLC</code>
+        </h1>
         {/* <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://softwaresack.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Go to Software Sack
         </a> */}
       </header>
     </div>
