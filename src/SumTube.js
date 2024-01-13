@@ -1,7 +1,7 @@
 import logo from './logo2.png';
 import './App.css';
 
-function App() {
+function SumTube() {
   return (
     <div className="App">
       <header className="App-header">
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default SumTube;
