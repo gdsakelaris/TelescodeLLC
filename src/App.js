@@ -13,7 +13,6 @@ function App() {
       <a
         className="App-link"
         href="https://softwaresack.com"
-        target="_blank"
         rel="noopener noreferrer"
       >
         Go to Software Sack
