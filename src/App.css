@@ -3,9 +3,9 @@ html {
 }
 
 .App {
-	min-height: 100vh; /* Ensure the App takes up the full viewport height */
+	min-height: 100vh; 
 	display: flex;
-	flex-direction: column; /* Stack children vertically */
+	flex-direction: column; 
 	text-align: center;
 	margin: 0;
 	padding: 0;
